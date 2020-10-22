@@ -1,16 +1,17 @@
 *
     margin: 0
     padding: 0
+    background: #000
 
+button, 
+a,
+input
+    outline: none
 
 .contenedor
     width: 100%
-    margin: auto
-    background: #000
     height: 100%
-    display: block
-    text-align: center    
-
+    text-align: center
 
 h1
     padding: 50px 50px 10px 50px
@@ -18,18 +19,19 @@ h1
     font-size: 70px
     color: #fff
 
-
 h2, h3
     color: #fff
     font-family: 'Shadows Into Light', cursive
     font-size: 50px
     padding-bottom: 10px
 
-
+.contenedor-juego
+    width: 100%
+    display: flex
+    justify-content: center
 
 .botones
     width: 100%
-
 
 .boton
     background: rgb(95, 95, 219)
@@ -42,11 +44,9 @@ h2, h3
     border-radius: 10px
     cursor: pointer
     transition: all .3s ease
-
+    &:hover
+        background: rgb(110, 110, 119)
 
 .boton i
     font-size: 30px
-
-
-.boton:hover
-    background: rgb(110, 110, 119)
+    background: none
