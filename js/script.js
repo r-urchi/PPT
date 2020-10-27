@@ -43,13 +43,13 @@ function partida(botones, turnoComputadora){
 
             } else if (botones == "piedra" && turnoComputadora == "tijera"){
                 puntosJugador++;
-                user.innerHTML = `Usuario: ${puntosJugador}`;
+                user.innerHTML = `Jugador: ${puntosJugador}`;
                 imgJugador.setAttribute('src', 'img/piedra.jpg');
                 imgCompu.setAttribute('src', 'img/tijera.jpg');
 
             }else if(botones == "papel" && turnoComputadora == "piedra"){
                 puntosJugador++;
-                user.innerHTML = `Usuario: ${puntosJugador}`;
+                user.innerHTML = `Jugador: ${puntosJugador}`;
                 imgJugador.setAttribute('src', 'img/papel.jpg');
                 imgCompu.setAttribute('src', 'img/piedra.jpg');
 
@@ -61,7 +61,7 @@ function partida(botones, turnoComputadora){
 
             } else if(botones == "tijera" && turnoComputadora == "papel"){
                 puntosJugador++;
-                user.innerHTML = `Usuario: ${puntosJugador}`;
+                user.innerHTML = `Jugador: ${puntosJugador}`;
                 imgJugador.setAttribute('src', 'img/tijera.jpg');
                 imgCompu.setAttribute('src', 'img/papel.jpg');
 
@@ -109,7 +109,7 @@ reset.addEventListener('click', function() {
     empate = 0;
 
     empates.innerHTML = 'Empates: ';
-    user.innerHTML = 'Usuario: ';
+    user.innerHTML = 'Jugador: ';
     compu.innerHTML = 'Computadora: ';
     ganador.innerHTML = '¡Jugá!';
 
