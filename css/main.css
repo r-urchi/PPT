@@ -126,8 +126,10 @@ h2, h3 {
 
   .boton {
     font-size: 20px;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
+    width: 102px;
+    height: 50px;
   }
 
   .contenedor-juego {
