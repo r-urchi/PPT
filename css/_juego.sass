@@ -6,8 +6,15 @@
 .resultados
     width: 30%
     div, button
+        display: -webkit-box
+        display: -ms-flexbox
         display: flex
+        -webkit-box-align: start
+        -ms-flex-align: start
         align-items: flex-start
+        -webkit-box-orient: vertical
+        -webkit-box-direction: normal
+        -ms-flex-direction: column
         flex-direction: column
 
 .resultados .empate,
@@ -33,8 +40,13 @@
 
 .imagenes
     width: 100%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: space-evenly
+    -ms-flex-pack: space-evenly
     justify-content: space-evenly
+    -ms-flex-item-align: center
     align-self: center
 
 .imgContenedor

@@ -27,7 +27,11 @@ h2, h3
 
 .contenedor-juego
     width: 100%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
 
 .botones
@@ -43,6 +47,8 @@ h2, h3
     font-size: 30px
     border-radius: 10px
     cursor: pointer
+    -webkit-transition: all .3s ease
+    -o-transition: all .3s ease
     transition: all .3s ease
     &:hover
         background: #ff9500
